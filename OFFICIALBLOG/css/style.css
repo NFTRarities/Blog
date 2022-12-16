@@ -567,8 +567,15 @@ ul, li {
 /*------------------------------------------------------------------
  # blog post style
 -------------------------------------------------------------------*/
+.post-item{
+  border-top: solid;
+  border-style:dotted;
+  border-radius: 0;
+}
+
 .post-item .card-img-top {
   transition: 0.3s;
+  margin-top: 20px;
 }
 .post-item .card-img-top:hover {
   filter: grayscale(0.5);
